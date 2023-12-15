@@ -1,4 +1,4 @@
-name: Cloudflare Dev Environment
+name: cloudflare-dev
 
 on:
   push:
