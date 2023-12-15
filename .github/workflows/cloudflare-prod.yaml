@@ -17,12 +17,11 @@ jobs:
       with:
         persist-credentials: false
     - uses: actions/setup-node@v4
-       with:
-         node-version: ${{ matrix.node }}
-         check-latest: true
-         cache: 'npm'
-         cache-dependency-path: ./package-lock.json
-
+      with:
+        node-version: ${{ matrix.node }}
+        check-latest: true
+        cache: 'npm'
+        cache-dependency-path: ./package-lock.json
     - name: Install Dependencies
       run: npm install
 
