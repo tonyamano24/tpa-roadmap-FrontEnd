@@ -32,4 +32,4 @@ tests-examples
 /editor/*
 !/editor/readonly-editor.tsx
 
-.wranger
+/.wranger/*
