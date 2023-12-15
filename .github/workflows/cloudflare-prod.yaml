@@ -1,47 +1,41 @@
-# name: Cloudflare Dev Environment
+name: cloudflare-prod
 
-# on:
-#   push:
-#     branches:
-#       - develop
+on:
+  push:
+    branches:
+      - main
 
-# env:
-#   PUBLIC_API_URL: "https://api.roadmap.sh"
-#   PUBLIC_EDITOR_APP_URL: "https://draw.roadmap.sh"
-#   PUBLIC_AVATAR_BASE_URL: "https://dodrc8eu8m09s.cloudfront.net/avatars"
-#   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#   CI: true
+jobs:
+  ci:
+    strategy:
+      matrix:
+        os: [ ubuntu-latest ]
+        node: [ 18 ]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+    - uses: actions/setup-node@v4
+       with:
+         node-version: ${{ matrix.node }}
+         check-latest: true
+         cache: 'npm'
+         cache-dependency-path: ./package-lock.json
 
-# jobs:
-#   ci:
-#     runs-on: ${{ matrix.os }}
-#     strategy:
-#       matrix:
-#         os: [ ubuntu-latest ]
-#         node: [ 18 ]
-#     steps:
-#     - uses: actions/checkout@v4
-#         with:
-#         persist-credentials: false
-#     - uses: actions/setup-node@v1
-#         with:
-#         node-version: ${{ matrix.node }}
+    - name: Install Dependencies
+      run: npm install
 
-#     # - name: Cache node_modules
-#     #     uses: actions/cache@v2
-#     #     with:
-#     #     path: node_modules
-#     #     key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+    - name: Build
+      run: npm run build
 
-#     - name: Install Dependencies
-#         if: steps.cache.outputs.cache-hit != 'true'
-#         run: npm ci
-
-#     - name: Build
-#         run: npm run build
-
-#     - name: Publish to Cloudflare
-#       uses: cloudflare/wrangler-action@v3
-#       with:
-#         apiToken: ${{ secrets.CF_API_TOKEN }}
-#         command: pages deploy --project-name tpa-roadmap-dev
+    - name: Publish to Cloudflare
+      id: deploy
+      uses: cloudflare/wrangler-action@v3
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        command: pages deploy ./dist --project-name=tpa-roadmap
+    - name: print deployment-url
+      env:
+        DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+      run: echo $DEPLOYMENT_URL
