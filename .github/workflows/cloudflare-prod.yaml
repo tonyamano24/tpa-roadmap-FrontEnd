@@ -1,47 +1,47 @@
-name: Cloudflare Dev Environment
+# name: Cloudflare Dev Environment
 
-on:
-  push:
-    branches:
-      - develop
+# on:
+#   push:
+#     branches:
+#       - develop
 
-env:
-  PUBLIC_API_URL: "https://api.roadmap.sh"
-  PUBLIC_EDITOR_APP_URL: "https://draw.roadmap.sh"
-  PUBLIC_AVATAR_BASE_URL: "https://dodrc8eu8m09s.cloudfront.net/avatars"
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  CI: true
+# env:
+#   PUBLIC_API_URL: "https://api.roadmap.sh"
+#   PUBLIC_EDITOR_APP_URL: "https://draw.roadmap.sh"
+#   PUBLIC_AVATAR_BASE_URL: "https://dodrc8eu8m09s.cloudfront.net/avatars"
+#   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#   CI: true
 
-jobs:
-  ci:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ ubuntu-latest ]
-        node: [ 18 ]
-    steps:
-    - uses: actions/checkout@v4
-        with:
-        persist-credentials: false
-    - uses: actions/setup-node@v1
-        with:
-        node-version: ${{ matrix.node }}
+# jobs:
+#   ci:
+#     runs-on: ${{ matrix.os }}
+#     strategy:
+#       matrix:
+#         os: [ ubuntu-latest ]
+#         node: [ 18 ]
+#     steps:
+#     - uses: actions/checkout@v4
+#         with:
+#         persist-credentials: false
+#     - uses: actions/setup-node@v1
+#         with:
+#         node-version: ${{ matrix.node }}
 
-    # - name: Cache node_modules
-    #     uses: actions/cache@v2
-    #     with:
-    #     path: node_modules
-    #     key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+#     # - name: Cache node_modules
+#     #     uses: actions/cache@v2
+#     #     with:
+#     #     path: node_modules
+#     #     key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
 
-    - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: npm ci
+#     - name: Install Dependencies
+#         if: steps.cache.outputs.cache-hit != 'true'
+#         run: npm ci
 
-    - name: Build
-        run: npm run build
+#     - name: Build
+#         run: npm run build
 
-    - name: Publish to Cloudflare
-      uses: cloudflare/wrangler-action@v3
-      with:
-        apiToken: ${{ secrets.CF_API_TOKEN }}
-        command: pages deploy "./dist" --project-name tpa-roadmap-dev
+#     - name: Publish to Cloudflare
+#       uses: cloudflare/wrangler-action@v3
+#       with:
+#         apiToken: ${{ secrets.CF_API_TOKEN }}
+#         command: pages deploy --project-name tpa-roadmap-dev
