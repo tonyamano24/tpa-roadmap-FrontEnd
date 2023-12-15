@@ -27,14 +27,7 @@ jobs:
       with:
         node-version: ${{ matrix.node }}
 
-    # - name: Cache node_modules
-    #     uses: actions/cache@v2
-    #     with:
-    #     path: node_modules
-    #     key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-
     - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
 
     - name: Build
