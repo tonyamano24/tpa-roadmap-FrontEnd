@@ -1,23 +1,33 @@
 # Contribution
 
-First of all thank you for considering to contribute. Please look at the details below:
+ก่อนอื่นเลยขอขอบคุณสำหรับคนที่สนใจและอยากเป็นส่วนหนึ่งที่ช่วยกันพัฒนาให้สังคมดีขึ้น โดยทางเรามีรายละเอียดในและขั้นตอนในสำหรับผู้ที่สนใจเข้ามาช่วยกันพัฒนาดังนี้: 
 
 - [Contribution](#contribution)
+  - [Environment](#environment)
   - [New Roadmaps](#new-roadmaps)
   - [Existing Roadmaps](#existing-roadmaps)
   - [Adding Content](#adding-content)
   - [Guidelines](#guidelines)
 
-## New Roadmaps
+## Environment
+- Development: https://tpa-roadmap-dev.pages.dev
+- Production: https://roadmap.thaiprogrammer.org
+- Local: 
+```
+npm install
+npm run build
+wrangler pages dev ./dist 
+```
 
-For new roadmaps, submit a roadmap by providing [a textual roadmap similar to this roadmap](https://gist.github.com/kamranahmedse/98758d2c73799b3a6ce17385e4c548a5) in an issue.
+## New Roadmaps
+สำหรับผู้ที่ต้องการสร้าง roadmaps ใหม่, ให้ทำการเปิด issue โดยมีรูปแบบโครงสร้างดังนี้ [รูปแบบโครงสร้างสำหรับสร้าง roadmap ใหม่](https://gist.github.com/kamranahmedse/98758d2c73799b3a6ce17385e4c548a5).
 
 ## Existing Roadmaps
-
+สำหรับผู้ที่ต้องการเพิ่มเติมหรือแก้ไข roadmaps ที่มีอยู่แล้วโปรดทำตามขั้นตอนต่อไปนี้
 For the existing roadmaps, please follow the details listed for the nature of contribution:
 
-- **Fixing Typos** — Make your changes in the [roadmap JSON file](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps)
-- **Adding or Removing Nodes** — Please open an issue with your suggestion.
+- **สำหรับแก้ไขคำผิด** — การแก้ไขใน [roadmap JSON file](https://github.com/ThaiProgrammer/tpa-roadmap/tree/main/src/data/roadmaps)
+- **เพิ่มเติม หรือลบ Nodes** — กรุณาเปิด issue ด้วยรายละเอียดชี้แจงสิ่งที่ต้องการเพิ่มเติมหรือลบออก.
 
 **Note:** Please note that our goal is not to have the biggest list of items. Our goal is to list items or skills most relevant today.
 
