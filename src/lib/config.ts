@@ -5,10 +5,10 @@ export const siteConfig = {
   url: {
     twitter: 'https://twitter.com/roadmapsh',
     youtube: 'https://youtube.com/theroadmap?sub_confirmation=1',
-    repo: 'https://github.com/kamranahmedse/developer-roadmap',
+    repo: 'https://github.com/ThaiProgrammer/tpa-roadmap',
     contribute:
-      'https://github.com/kamranahmedse/developer-roadmap/tree/master/contributing.md',
-    issue: 'https://github.com/kamranahmedse/developer-roadmap/issues/new',
+      'https://github.com/ThaiProgrammer/tpa-roadmap/tree/main/contributing.md',
+    issue: 'https://github.com/ThaiProgrammer/tpa-roadmap/issues/new',
   },
   keywords: [
     'roadmap',
