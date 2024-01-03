@@ -108,7 +108,7 @@ export class Renderer {
 
         const message = `
           <strong>There was an error.</strong><br>
-          
+
           Try loading the page again. or submit an issue on GitHub with following:<br><br>
 
           ${error.message} <br /> ${error.stack}
@@ -245,7 +245,7 @@ export class Renderer {
     if (/^ext_link/.test(groupId)) {
       const externalLink = groupId.replace('ext_link:', '');
 
-      if (!externalLink.startsWith('roadmap.sh')) {
+      if (!externalLink.startsWith('roadmap.thaiprogrammer.org')) {
         window.fireEvent({
           category: 'RoadmapExternalLink',
           action: `${this.resourceType} / ${this.resourceId}`,
