@@ -1,6 +1,6 @@
 # Contribution
 
-ก่อนอื่นเลยขอขอบคุณสำหรับคนที่สนใจและอยากเป็นส่วนหนึ่งที่ช่วยกันพัฒนาให้สังคมดีขึ้น โดยทางเรามีรายละเอียดในและขั้นตอนในสำหรับผู้ที่สนใจเข้ามาช่วยกันพัฒนาดังนี้: 
+ก่อนอื่นเลยขอขอบคุณสำหรับคนที่สนใจและอยากเป็นส่วนหนึ่งที่ช่วยกันพัฒนาให้สังคมดีขึ้น โดยทางเรามีรายละเอียดในและขั้นตอนในสำหรับผู้ที่สนใจเข้ามาช่วยกันพัฒนาดังนี้:
 
 - [Contribution](#contribution)
   - [Environment](#environment)
@@ -12,11 +12,11 @@
 ## Environment
 - Development: https://tpa-roadmap-dev.pages.dev
 - Production: https://roadmap.thaiprogrammer.org
-- Local: 
+- Local:
 ```
 npm install
 npm run build
-wrangler pages dev ./dist 
+wrangler pages dev ./dist
 ```
 
 ## New Roadmaps
@@ -33,7 +33,7 @@ For the existing roadmaps, please follow the details listed for the nature of co
 
 ## Adding Content
 
-Find [the content directory inside the relevant roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps). Please keep the following guidelines in mind when submitting content:
+Find [the content directory inside the relevant roadmap](https://github.com/ThaiProgrammer/tpa-roadmap/tree/main/src/data/roadmaps). Please keep the following guidelines in mind when submitting content:
 
 - Content must be in English.
 - Put a brief description about the topic on top of the file and the a list of links below with each link having title of the URL.
