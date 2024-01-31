@@ -113,7 +113,7 @@ git clone --depth=1 https://github.com/ThaiProgrammer/tpa-roadmap.git
 ```
 
 ## Server Endpoints
-- [Development](https://7c1529ac.tpa-roadmap-dev.pages.dev/devops)
+- [Development](https://7c1529ac.tpa-roadmap-dev.pages.dev/)
 - [Main](https://roadmap.thaiprogrammer.org/)
 
 ## Contribution
