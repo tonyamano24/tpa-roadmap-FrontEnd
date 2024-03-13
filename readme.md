@@ -112,6 +112,10 @@ Note: use the `depth` parameter to reduce the clone size and speed up the clone.
 git clone --depth=1 https://github.com/ThaiProgrammer/tpa-roadmap.git
 ```
 
+## Server Endpoints
+- [Development](https://7c1529ac.tpa-roadmap-dev.pages.dev/)
+- [Main](https://roadmap.thaiprogrammer.org/)
+
 ## Contribution
 
 > Have a look at [contribution docs](./contributing.md) for how to update any of the roadmaps
