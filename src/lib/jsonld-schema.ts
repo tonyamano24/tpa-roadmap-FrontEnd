@@ -30,10 +30,10 @@ export function generateArticleSchema(article: ArticleSchemaProps) {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'roadmap.sh',
+      name: 'roadmap.thaiprogrammer.org',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://roadmap.sh/images/brand-square.png',
+        url: 'https://roadmap.thaiprogrammer.org/images/brand-square.png',
       },
     },
     datePublished: datePublished,

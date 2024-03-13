@@ -155,12 +155,12 @@ export function RoadCardPage() {
           <div className="mt-3 flex flex-col gap-3">
             <Editor
               title={'HTML'}
-              text={`<a href="https://roadmap.sh"><img src="${badgeUrl}" alt="roadmap.sh"/></a>`.trim()}
+              text={`<a href="https://roadmap.thaiprogrammer.org"><img src="${badgeUrl}" alt="roadmap.thaiprogrammer.org"/></a>`.trim()}
             />
 
             <Editor
               title={'Markdown'}
-              text={`[![roadmap.sh](${badgeUrl})](https://roadmap.sh)`.trim()}
+              text={`[![roadmap.thaiprogrammer.org](${badgeUrl})](https://roadmap.thaiprogrammer.org)`.trim()}
             />
           </div>
 

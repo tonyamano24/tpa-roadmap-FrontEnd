@@ -12,7 +12,7 @@ body:
     attributes:
       label: Roadmap URL
       description: Please provide the URL of the roadmap you are suggesting changes to.
-      placeholder: https://roadmap.sh
+      placeholder: https://roadmap.thaiprogrammer.org
     validations:
       required: true
   - type: textarea

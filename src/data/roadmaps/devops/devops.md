@@ -3,21 +3,21 @@ jsonUrl: '/jsons/roadmaps/devops.json'
 pdfUrl: '/pdfs/roadmaps/devops.pdf'
 order: 3
 briefTitle: 'DevOps'
-briefDescription: 'Step by step guide for DevOps or operations role in 2023'
+briefDescription: 'ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง DevOps, SRE และ operations ในปี 2024'
 title: 'DevOps Roadmap'
-description: 'Step by step guide for DevOps, SRE or any other Operations Role in 2023'
+description: 'ขั้นตอนแนะนำในการเตรียมความพร้อมในการเข้าสู่เส้นทาง DevOps, SRE และ operations ในปี 2024'
 hasTopics: true
 isForkable: true
 tnsBannerLink: 'https://thenewstack.io?utm_source=roadmap.sh&utm_medium=Referral&utm_campaign=Alert'
 question:
-  title: 'What is DevOps?'
+  title: 'อะไรคือ DevOps กันแน่?'
   description: |
-    DevOps is a cultural and collaborative mindset that emphasizes communication, collaboration, integration, and automation between development and operations teams in order to achieve faster and more reliable software delivery.
+    DevOps เป็นกรอบความคิดทางวัฒนธรรมและการทำงานร่วมกันที่เน้นการสื่อสาร การทำงานร่วมกัน การผสานรวม(integration) และการอัตโนมัติ (automation)ระหว่างทีมพัฒนา (Development) และทีมปฏิบัติการ (Operation)เพื่อให้การส่งมอบผลงานทาง Software ที่เร็วและน่าเชื่อถือยิ่งขึ้น
     
-    DevOps is not a specific job title or role, but rather a set of practices and principles that can be applied across a variety of roles in software development and IT operations. Anyone involved in the software development and delivery process can adopt a DevOps mindset and apply DevOps practices in their work, including developers, testers, operations engineers, product managers, and others.
+    DevOps ไม่ใช่ตำแหน่งงานหรือบทบาทที่เฉพาะเจาะจง แต่เป็นชุดของแนวปฏิบัติและหลักการที่สามารถนำไปใช้กับหลากหลายบทบาทในการพัฒนา Software และการดำเนินการด้าน IT ทุกคนที่เกี่ยวข้องในกระบวนการพัฒนาและจัดส่ง  Software (Software development and Delivery Process) สามารถนำความคิด DevOps ไปใช้และประยุกต์แนวปฏิบัติ DevOps ในงานของตนได้ รวมถึงนักพัฒนา (Developer), ผู้ทดสอบ (Tester), วิศวกรด้านการดำเนินงาน (Operation Engineer), ผู้จัดการผลิตภัณฑ์ (Product Owner), และคนอื่นๆ
     
-    ## What is a DevOps Engineer?
-    While DevOps is not a specific job title or role, organizations often hire for a "DevOps Engineer" role. A DevOps Engineer is a software engineer who specializes in the practices and tools that enable the continuous delivery of software. DevOps Engineers are responsible for the design and implementation of applications, software, and services for their organization, and they work closely with developers, testers, and operations staff to oversee the code releases.
+    ## อะไรคือ DevOps Engineer?
+    แม้ว่า DevOps ไม่ใช่ตำแหน่งงานหรือบทบาทที่เฉพาะเจาะจง องค์กรมักจะจ้างบุคคลในตำแหน่ง 'DevOps Engineer' DevOps Engineer คือ Software Engineer ที่มีความเชี่ยวชาญในแนวปฏิบัติและเครื่องมือที่ช่วยให้การ Software development and Delivery Process เป็นไปอย่างอัตโนมัติ DevOps Engineer มีหน้าที่ในการออกแบบและการดำเนินการประยุกต์ใช้งาน Software และ Service สำหรับองค์กรของพวกเขา และพวกเขาทำงานอย่างร่วมกับกับ Developer, Tester, System Admin เพื่อดูแลการกระบวนนำ Software ไปให้คนทั่วไปใช้งาน (Deployment Process)
 dimensions:
   width: 968
   height: 2527.46
@@ -28,8 +28,8 @@ schema:
   datePublished: '2023-01-05'
   dateModified: '2023-06-10'
 seo:
-  title: 'DevOps Roadmap: Learn to become a DevOps Engineer or SRE'
-  description: 'Learn to become a modern DevOps engineer by following the steps, skills, resources and guides listed in our community-driven roadmap.'
+  title: 'DevOps Roadmap: เรียนรู้ที่จะเป็น DevOps Engineer หรือ SRE'
+  description: 'เรียนรู้ที่จะเป็น DevOps engineer ด้วยขั้นตอนที่ประกอบไปด้วย ทักษะ(skills), แหล่งข้อมูล(resources) และ ลำดับแนะนำที่ถูกทำขึ้นโดย community-driven roadmap.'
   keywords:
     - 'devops roadmap 2023'
     - 'sre roadmap 2023'

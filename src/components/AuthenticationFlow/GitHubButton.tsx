@@ -66,7 +66,7 @@ export function GitHubButton(props: GitHubButtonProps) {
         Cookies.set(TOKEN_COOKIE_NAME, response.token, {
           path: '/',
           expires: 30,
-          domain: import.meta.env.DEV ? 'localhost' : '.roadmap.sh',
+          domain: import.meta.env.DEV ? 'localhost' : '.roadmap.thaiprogrammer.org',
         });
         window.location.href = redirectUrl;
       })

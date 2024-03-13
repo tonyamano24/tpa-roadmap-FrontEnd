@@ -4192,11 +4192,11 @@
                   "zOrder": "1",
                   "measuredW": "162",
                   "measuredH": "26",
-                  "x": "101",
+                  "x": "55",
                   "y": "11",
                   "properties": {
                     "size": "18",
-                    "text": "Git - Version Control"
+                    "text": "การจัดการ Source Code ด้วย Git"
                   }
                 },
                 {
@@ -4864,11 +4864,11 @@
                   "zOrder": "1",
                   "measuredW": "188",
                   "measuredH": "26",
-                  "x": "88",
+                  "x": "120",
                   "y": "12",
                   "properties": {
                     "size": "18",
-                    "text": "Learn the Basics of C#"
+                    "text": " ภาษา C# คืออะไร"
                   }
                 },
                 {
@@ -5152,11 +5152,11 @@
                   "zOrder": "1",
                   "measuredW": "224",
                   "measuredH": "26",
-                  "x": "59",
+                  "x": "30",
                   "y": "12",
                   "properties": {
                     "size": "18",
-                    "text": "General Development Skills"
+                    "text": "ความรู้สำคัญเบื้องต้นที่เกี่ยวข้องกับ C#"
                   }
                 },
                 {
@@ -21067,7 +21067,7 @@
                   "y": "21",
                   "properties": {
                     "size": "16",
-                    "text": "Personal Recommendation / Opinion"
+                    "text": "หัวข้อสำคัญที่ควรเรียนรู้"
                   }
                 },
                 {
@@ -21080,7 +21080,7 @@
                   "y": "118",
                   "properties": {
                     "size": "16",
-                    "text": "I wouldn't recommend"
+                    "text": "ไม่แนะนำให้เรียน"
                   }
                 },
                 {
@@ -21127,7 +21127,7 @@
                   "y": "86",
                   "properties": {
                     "size": "16",
-                    "text": "Order in roadmap not strict (Learn anytime)"
+                    "text": "เนื้อหาเพิ่มเติมที่เรียนเมื่อไหร่ก็ได้"
                   }
                 },
                 {
@@ -21189,7 +21189,7 @@
                   "y": "54",
                   "properties": {
                     "size": "16",
-                    "text": "Alternative Option - Pick this or purple"
+                    "text": "ยังไม่ต้องเรียนก็ได้ เสนอไว้เป็นทางเลือกอื่นๆ"
                   }
                 },
                 {
@@ -21295,7 +21295,7 @@
                   "y": "17",
                   "properties": {
                     "size": "17",
-                    "text": "Find the detailed version of this roadmap"
+                    "text": "ดูประวัติการแก้ไขเอกสาร"
                   }
                 },
                 {
@@ -21308,7 +21308,7 @@
                   "y": "45",
                   "properties": {
                     "size": "17",
-                    "text": "along with resources and other roadmaps"
+                    "text": "และรายละเอียดของความรู้อื่นๆได้ที่ลิ้งนี้"
                   }
                 },
                 {
@@ -21322,7 +21322,7 @@
                   "x": "15",
                   "y": "81",
                   "properties": {
-                    "controlName": "ext_link:roadmap.sh"
+                    "controlName": "ext_link:roadmap.thaiprogrammer.org"
                   },
                   "children": {
                     "controls": {
@@ -21348,69 +21348,12 @@
                           "zOrder": "1",
                           "measuredW": "105",
                           "measuredH": "28",
-                          "x": "141",
+                          "x": "30",
                           "y": "8",
                           "properties": {
                             "color": "16777215",
                             "size": "20",
-                            "text": "roadmap.sh"
-                          }
-                        },
-                        {
-                          "ID": "2",
-                          "typeID": "Label",
-                          "zOrder": "2",
-                          "measuredW": "45",
-                          "measuredH": "28",
-                          "x": "65",
-                          "y": "8",
-                          "properties": {
-                            "color": "16777215",
-                            "size": "20",
-                            "text": "https"
-                          }
-                        },
-                        {
-                          "ID": "3",
-                          "typeID": "Label",
-                          "zOrder": "3",
-                          "measuredW": "5",
-                          "measuredH": "28",
-                          "x": "113",
-                          "y": "8",
-                          "properties": {
-                            "bold": "true",
-                            "color": "16777215",
-                            "size": "20",
-                            "text": ":"
-                          }
-                        },
-                        {
-                          "ID": "4",
-                          "typeID": "Label",
-                          "zOrder": "4",
-                          "measuredW": "10",
-                          "measuredH": "28",
-                          "x": "120",
-                          "y": "9",
-                          "properties": {
-                            "color": "16777215",
-                            "size": "20",
-                            "text": "/"
-                          }
-                        },
-                        {
-                          "ID": "5",
-                          "typeID": "Label",
-                          "zOrder": "5",
-                          "measuredW": "10",
-                          "measuredH": "28",
-                          "x": "128",
-                          "y": "9",
-                          "properties": {
-                            "color": "16777215",
-                            "size": "20",
-                            "text": "/"
+                            "text": "roadmap.thaiprogrammer.org"
                           }
                         }
                       ]

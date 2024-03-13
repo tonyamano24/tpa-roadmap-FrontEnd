@@ -87,7 +87,7 @@ export function CustomRoadmap() {
       return;
     }
 
-    document.title = `${response.title} - roadmap.sh`;
+    document.title = `${response.title} - roadmap.thaiprogrammer.org`;
 
     setRoadmap(response);
     currentRoadmap.set(response);

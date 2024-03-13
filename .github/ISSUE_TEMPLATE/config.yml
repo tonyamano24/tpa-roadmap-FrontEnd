@@ -4,7 +4,7 @@ contact_links:
     url: https://discord.gg/cJpEt5Qbwa
     about: Please do not open issues with roadmap requests, hop onto the discord server for that.
   - name: 📝 ​ ​Typo or Grammatical Mistake
-    url: https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data
+    url: https://github.com/ThaiProgrammer/tpa-roadmap/tree/main/src/data
     about: Please submit a pull request instead of reporting it as an issue.
   - name: 💬 ​ ​Chat on Discord
     url: https://discord.gg/cJpEt5Qbwa

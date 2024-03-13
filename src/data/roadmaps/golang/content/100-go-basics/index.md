@@ -1,8 +1,10 @@
 # Learn the Basics
 
-Learn the common concepts of Go like variables, loops, conditional statements, functions, data types, and so on. A good starting point for go basics is its Go's official docs.
+เริ่มจากการเรียนรู้หลักการทั่วไปของภาษา Go เช่น variable (ตัวแปร), loop (ลูป), condition (คำสั่งเงื่อนไข), function (ฟังก์ชัน), data types (ประเภทข้อมูล) และหัวข้ออื่น ๆ
 
-Visit the following resources to learn more:
+วิธีเริ่มต้นเรียนรู้พื้นฐานของภาษา Go ได้ง่าย ๆ คือการอ่าน Go's official docs ครับ
+
+ดูเพิ่มเติมได้ที่:
 
 - [Official Go Tutorial](https://go.dev/doc/tutorial/)
 - [Go Tutorial](https://www.w3schools.com/go/index.php)
