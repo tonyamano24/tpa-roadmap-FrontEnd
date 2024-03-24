@@ -14,8 +14,7 @@
 
 - `Cloud computing`: ความคุ้นเคยกับแนวคิดและเทคโนโลยีคอมพิวติ้งบนคลาวด์, เช่น Azure, กำลังกลายเป็นสิ่งสำคัญมากขึ้นสำหรับการปรับใช้และขยายแอปพลิเคชัน C#
 
-- `DevOps`: Understanding of DevOps concepts and practices, such as continuous integration and continuous deployment, is necessary for automating and streamlining the software development process.
-การทำความเข้าใจในแนวคิดและปฏิบัติการของ DevOps, เช่น การรวม Source Code เข้าด้วยกันต่อเนื่อง (continuous integration) และการติดตั้งระบบอย่างต่อเนื่อง (continuous deployment) นั้นเป็นสิ่งจำเป็นสำหรับกระบวนการพัฒนาซอฟต์แวร์อัฒโนมัติ ให้เป็นไปอย่างราบรื่นและมีประสิทธิภาพมากขึ้น.
+- `DevOps`: การทำความเข้าใจในแนวคิดและปฏิบัติการของ DevOps, เช่น การรวม Source Code เข้าด้วยกันต่อเนื่อง (continuous integration) และการติดตั้งระบบอย่างต่อเนื่อง (continuous deployment) นั้นเป็นสิ่งจำเป็นสำหรับกระบวนการพัฒนาซอฟต์แวร์อัฒโนมัติ ให้เป็นไปอย่างราบรื่นและมีประสิทธิภาพมากขึ้น.
 
 ## ศึกษารายละเอียดเพิ่มเติมได้ที่:
 
