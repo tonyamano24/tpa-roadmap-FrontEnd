@@ -68,7 +68,7 @@ export function ShareRoadmapButton(props: ShareRoadmapButtonProps) {
               <div className="flex w-[20px] items-center justify-center">
                 <Copy size="15px" className="text-slate-400" />
               </div>
-              Copy Link
+              คัดลอกลิงก์
             </button>
             <a
               href={twitterUrl}
