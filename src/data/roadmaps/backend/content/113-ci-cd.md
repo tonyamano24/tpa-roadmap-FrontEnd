@@ -7,4 +7,4 @@ CI/CD (Continuous Integration/Continuous Deployment) คือแนวทาง
 - [CI/CD คืออะไร?](https://about.gitlab.com/topics/ci-cd/)
 - [พื้นฐาน: Continuous Integration and Continuous Delivery (CI/CD)](https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/)
 - [3 แนวทางในการทำงาน Automation ใน CI/CD Pipelines](https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/)
-- [บทความสำหรับ CI/CD](https://thenewstack.io/category/ci-cd/)
+- [บทความที่น่าสนใจเกี่ยวกับ CI/CD](https://thenewstack.io/category/ci-cd/)
