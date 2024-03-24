@@ -94,9 +94,9 @@ const hasTnsBanner = !!tnsBannerLink;
               <a
                 href='/roadmaps'
                 class='rounded-md bg-gray-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-gray-600 sm:text-sm'
-                aria-label='Back to All Roadmaps'
+                aria-label='กลับไปยัง Roadmap ทั้งหมด'
               >
-                &larr;<span class='hidden sm:inline'>&nbsp;All Roadmaps</span>
+                &larr;<span class='hidden sm:inline'>&nbsp;Roadmap ทั้งหมด</span>
               </a>
 
               <ShareRoadmapButton
@@ -114,7 +114,7 @@ const hasTnsBanner = !!tnsBannerLink;
                     aria-label='Download Roadmap'
                   >
                     <Icon icon='download' />
-                    <span class='ml-2 hidden sm:inline'>Download</span>
+                    <span class='ml-2 hidden sm:inline'>ดาวน์โหลด</span>
                   </button>
 
                   <a
@@ -125,7 +125,7 @@ const hasTnsBanner = !!tnsBannerLink;
                     href={`/pdfs/roadmaps/${roadmapId}.pdf`}
                   >
                     <Icon icon='download' />
-                    <span class='ml-2 hidden sm:inline'>Download</span>
+                    <span class='ml-2 hidden sm:inline'>ดาวน์โหลด</span>
                   </a>
                 </>
               )}
@@ -138,10 +138,10 @@ const hasTnsBanner = !!tnsBannerLink;
             <a
               href={`/${roadmapId}`}
               class='rounded-md bg-gray-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-gray-600 sm:text-sm'
-              aria-label='Back to Visual Roadmap'
+              aria-label='กลับไปยังภาพ Roadmap'
             >
               &larr;
-              <span class='inline'>&nbsp;Visual Roadmap</span>
+              <span class='inline'>&nbsp;ภาพ Roadmap</span>
             </a>
           )
         }
@@ -163,8 +163,8 @@ const hasTnsBanner = !!tnsBannerLink;
               aria-label='Suggest Changes'
             >
               <Icon icon='comment' class='h-3 w-3' />
-              <span class='ml-2 hidden sm:inline'>Suggest Changes</span>
-              <span class='ml-2 inline sm:hidden'>Suggest</span>
+              <span class='ml-2 hidden sm:inline'>แนะนำการปรับเปลี่ยน</span>
+              <span class='ml-2 inline sm:hidden'>แนะนำ</span>
             </a>
           )
         }
