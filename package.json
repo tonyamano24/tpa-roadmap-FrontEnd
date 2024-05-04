@@ -27,7 +27,7 @@
     "@astrojs/tailwind": "^5.0.2",
     "@fingerprintjs/fingerprintjs": "^4.1.0",
     "@nanostores/react": "^0.7.1",
-    "@types/react": "^18.2.37",
+    "@types/react": "^18.2.77",
     "@types/react-dom": "^18.2.15",
     "astro": "^3.5.0",
     "astro-compress": "^2.2.3",
