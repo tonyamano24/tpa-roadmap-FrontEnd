@@ -30,7 +30,7 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "astro": "^3.5.0",
-    "astro-compress": "^2.2.3",
+    "astro-compress": "^2.2.23",
     "clsx": "^2.0.0",
     "dracula-prism": "^2.1.13",
     "jose": "^5.1.0",
