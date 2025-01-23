@@ -24,12 +24,12 @@
   "dependencies": {
     "@astrojs/react": "^3.0.4",
     "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/tailwind": "^5.0.2",
+    "@astrojs/tailwind": "^5.1.5",
     "@fingerprintjs/fingerprintjs": "^4.1.0",
     "@nanostores/react": "^0.7.1",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
-    "astro": "^3.5.0",
+    "astro": "^5.1.8",
     "astro-compress": "^2.2.3",
     "clsx": "^2.0.0",
     "dracula-prism": "^2.1.13",
@@ -49,7 +49,7 @@
     "roadmap-renderer": "^1.0.6",
     "slugify": "^1.6.6",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "^4.0.0",
     "wrangler": "^3.20.0",
     "zustand": "^4.4.6"
   },
