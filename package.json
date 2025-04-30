@@ -22,7 +22,7 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.4",
+    "@astrojs/react": "^4.2.6",
     "@astrojs/sitemap": "^3.0.3",
     "@astrojs/tailwind": "^5.0.2",
     "@fingerprintjs/fingerprintjs": "^4.1.0",
